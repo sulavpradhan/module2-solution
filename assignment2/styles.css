@@ -3,7 +3,11 @@
   position: relative;
   
 }
-
+.row {
+  width: 100%;
+  margin: 2px;
+  padding: 0px;
+}
 #soup{
   background-color: burlywood;
   border: black solid 2px;
@@ -46,11 +50,7 @@ div {
   font: bold;
   
 }
-.row {
-  width: 100%;
-  margin: 2px;
-  padding: 0px;
-}
+
 
 /********** Large devices only **********/
 @media (min-width: 992px) {
@@ -120,7 +120,7 @@ div {
     width: 41.66%;
   }
   .col-md-6 {
-    width: 49.45%;
+    width: 49.479%;
   }
   .col-md-7 {
     width: 58.33%;
