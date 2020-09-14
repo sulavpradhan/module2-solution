@@ -3,11 +3,7 @@
   position: relative;
   
 }
-.row {
-  width: 100%;
-  margin: 2px;
-  padding: 0px;
-}
+
 #soup{
   background-color: burlywood;
   border: black solid 2px;
@@ -50,7 +46,11 @@ div {
   font: bold;
   
 }
-
+.row {
+  width: 100%;
+  margin: 2px;
+  padding: 0px;
+}
 
 /********** Large devices only **********/
 @media (min-width: 992px) {
